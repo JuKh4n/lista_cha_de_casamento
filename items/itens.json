@@ -1,0 +1,320 @@
+[
+    {
+        "id": "item-1",
+        "nome":"Batedeira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-2",
+        "nome":"Liquidificador",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-3",
+        "nome":"Cafeteira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-4",
+        "nome":"Torradeira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-5",
+        "nome":"Jogo de lençóis",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-6",
+        "nome":"Travesseiros",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-7",
+        "nome":"Jogo de panela",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-8",
+        "nome":"Fronhas avulsas ",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-9",
+        "nome":"Jogo de jantar",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-10",
+        "nome":"Jogo de facas",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-11",
+        "nome":"Jogo de talheres",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-12",
+        "nome":"Varal de chão ",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-12",
+        "nome":"Jogo de toalhas",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-13",
+        "nome":"Microondas",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-14",
+        "nome":"Forno eletrônico ",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-15",
+        "nome":"Cesto de roupa",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-16",
+        "nome":"Assadeiras (vidro)",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-17",
+        "nome":"Edredom",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-17",
+        "nome":"Cobre leito",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-17",
+        "nome":"Cobre leito",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-18",
+        "nome":"Cobertor",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-19",
+        "nome":"Potes herméticos (vidro)",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-20",
+        "nome":"Jogo de taças",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-21",
+        "nome":"Petisqueira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-22",
+        "nome":"Potes para mantimentos",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-23",
+        "nome":"Galheteiros",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-24",
+        "nome":"Kit saleiro e açucareiro",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-25",
+        "nome":"Jogo de sobremesa",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-26",
+        "nome":"Lixeira (cozinha)",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-27",
+        "nome":"Escorredor de louça",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-28",
+        "nome":"Ferro de passar roupas",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-29",
+        "nome":"Chaleira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-30",
+        "nome":"Porta frios ",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-31",
+        "nome":"Ralador",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-32",
+        "nome":"Porta temperos",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-33",
+        "nome":"Mixer",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-34",
+        "nome":"Tigelas",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-35",
+        "nome":"Tapete bolinha para banheiro",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-36",
+        "nome":"Ventilador",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-37",
+        "nome":"Tábua de cortes",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-38",
+        "nome":"Boleira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-39",
+        "nome":"Escorredor de macarrão",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-40",
+        "nome":"Manteigueira",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-41",
+        "nome":"Organizador de salada",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-42",
+        "nome":"Garrafa térmica",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-43",
+        "nome":"Forma",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-44",
+        "nome":"Jogo de souplast",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-45",
+        "nome":"Tábua de passar roupa",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-46",
+        "nome":"Tábua de passar roupa",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-47",
+        "nome":"Mop",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-48",
+        "nome":"Cuia",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-49",
+        "nome":"Descanso de panelas",
+        "disponivel":true,
+        "reservadoPor":null
+    },
+    {
+        "id": "item-50",
+        "nome":"Kit utensílios de cozinha",
+        "disponivel":true,
+        "reservadoPor":null
+    }
+]
