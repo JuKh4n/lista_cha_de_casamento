@@ -1,50 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
+    font-family: 'Lora', serif;
+    background-color: #F9F6F2;
+    color: #22223B;
     margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #4CAF50;
-    margin-bottom: 20px;
-  }
-  
-  #lista-presentes {
+    padding: 0px;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #333, #555);
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom:10px;
+    height:50px;
+    display:flex;
+    align-items:center;
+}
+
+.navbar ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  #lista-presentes li {
-    background-color: #fff;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #lista-presentes li button {
-    background-color: #4CAF50;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #C9ADA7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-lista {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+    color: #0c0c0c;
+    display:block
+}
+
+.frase {
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #141414;
+}
+
+/* Lista de Presentes */
+#lista-presentes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#lista-presentes li {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#lista-presentes li button {
+    background: linear-gradient(45deg, #333, #555);
     color: white;
     border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 7px 15px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  #lista-presentes li button:hover {
-    background-color: #45a049;
-  }
-  
-  #lista-presentes li[style*="line-through"] {
-    background-color: #e0e0e0;
-  }
-  
+}
+
+#lista-presentes li button:hover {
+    background-color: #C9ADA7;
+}
+
+#lista-presentes li.reservado {
+    background-color: #d9d9d9;
+    color: #a3a3a3;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #F2E9E4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contato {
+  background-color: #F2E9E4; 
+  color: #141414;            
+  padding: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#contato h2 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+#contato p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.section-hidden {
+  display: none;
+}
+
+.section-active {
+  display: block;
+}
+
+.navbar a.active {
+  background-color: #555;
+  border-radius: 5px;
+  font-weight: bold;
+}

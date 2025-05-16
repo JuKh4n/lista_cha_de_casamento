@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Presentes</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script type="module" src="./arquivo/main.js" defer></script>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Presentes</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script type="module" src="./arquivo/main.js" defer></script>
+  <script src="./arquivo/navbar.js" defer></script> <!-- novo script -->
+</head>
+<body>
+
+  <div id="navbar-container"></div>
+
+  <div class="titulo-lista" id="titulo-lista">
     <h1>Lista de Presentes</h1>
+  </div>
+
+  <div class="frase">
+    <h1>“Se mais pessoas valorizassem o lar acima do ouro, o mundo seria um lugar melhor.”</h1>
+  </div>
+
+  <section id="lista" class="section-active">
     <ul id="lista-presentes"></ul>
-  </body>
+  </section>
+
+  <section id="sugestoes" class="section-hidden">
+    <h2>Sugestões de Voltagem e Cores</h2>
+    <p>Aqui você pode colocar as sugestões de voltagem, cores, e a arte do casamento.</p>
+    <img src="./imagens/Details.jpg" alt="Arte do Casamento" style="max-width: 100%; border-radius: 8px;"/>
+  </section>
+
+  <section id="contato" class="section-hidden">
+    <h2>Contato</h2>
+    <p>Informações para contato, telefone, e-mail, redes sociais, etc.</p>
+  </section>
+
+</body>
 </html>
